@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID/FLEX PRACTICES</title>
+     <link rel="stylesheet" href="Graph.css">
+
+</head>
+<body>
+    <section class="container">
+          <div class="grid-container">
+            <div class="flex-container">
+                <div class="flex-child-img">
+                    <picture>
+                        <source
+                          srcset="./images/image-product-desktop.jpg"
+                          media="(min-width: 600px)"
+                        />
+                        <source
+                          srcset="./images/image-product-mobile.jpg 686w"
+                          media="(min-width: 0px)"
+                        />
+                        <img
+                          class="card__hero-image"
+                          src="./images/image-product-desktop.jpg"
+                          alt="bottle of perfume"
+                        />
+                      </picture>
+                </div>
+                <div class="flex-child-text">
+                    <h1> Large Garbielle perfume</h1>
+                    <P>$250<span><del><small>$360</small></del></span></P>
+                    <button class="btn-primary"><a href="#">Add To Cart</a></button>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-child-img">
+                    <picture>
+                        <source
+                          srcset="./images/image-product-desktop.jpg"
+                          media="(min-width: 600px)"
+                        />
+                        <source
+                          srcset="./images/image-product-mobile.jpg 686w"
+                          media="(min-width: 0px)"
+                        />
+                        <img
+                          class="card__hero-image"
+                          src="./images/image-product-desktop.jpg"
+                          alt="bottle of perfume"
+                        />
+                      </picture>
+                </div>
+                <div class="flex-child-text">
+                    <h1> Medium Garbielle perfume</h1>
+                    <P>$200<span><del><small>$240</small></del></span></P>
+                    <button class="btn-primary"><a href="#">Add To Cart</a></button>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-child-img">
+                    <picture>
+                        <source
+                          srcset="./images/image-product-desktop.jpg"
+                          media="(min-width: 600px)"
+                        />
+                        <source
+                          srcset="./images/image-product-mobile.jpg 686w"
+                          media="(min-width: 0px)"
+                        />
+                        <img
+                          class="card__hero-image"
+                          src="./images/image-product-desktop.jpg"
+                          alt="bottle of perfume"
+                        />
+                      </picture>
+                </div>
+                <div class="flex-child-text">
+                    <h1> Small Garbielle perfume</h1>
+                    <P>$100<span><del><small>$120</small></del></span></P>
+                    <button class="btn-primary"><a href="#">Add To Cart</a></button>
+                </div>
+            </div>
+            
+          </div>
+    </section>
+</body>
+</html>
